@@ -1,0 +1,184 @@
+button {
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
+    background: #ed6524;
+    margin-left: 5px;
+}
+
+
+    
+    button:focus{
+        background-color: #DDDCDC ;
+        outline: none;
+    }
+
+    .profiles {
+        width: 100px;
+        height: 100px;
+    }
+    .texto{
+        margin-top: 70px;
+    }
+
+    .cuadricula{
+        display: grid;
+        grid-template-areas:
+            "cuadricula cuadricula cuadricula"
+            "cuadricula cuadricula cuadricula";
+            text-align: center;
+            grid-gap: 30px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 48px;
+}
+    
+    h3{
+        font-size: 20px;
+        justify-content: center;
+        margin-top: 30px;
+}
+
+.seccion-dos{
+    display: grid;
+    grid-template-columns: 400px 300px;
+    justify-content: center;
+}
+
+    
+.contener{
+    display: grid;
+    grid-template-areas: "foto texto";
+    grid-template-columns: 110px;
+
+}
+.botones{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+}
+.icon{
+   list-style: none;
+   margin-top: 29px
+}
+
+.bloque{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    
+
+}
+.btn{
+    background-color: #ed6524;
+    color: white;
+    width: 195px;
+    height: 60px;
+    
+}
+ul li{
+   
+    margin-bottom: 20px;
+}
+
+.botu {
+    margin-bottom: 54px;
+}
+p{
+    text-align: center;
+}
+.btn2{
+        
+    background-color: #ed6524 ;
+    width: 100px;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+.borde{
+    width: 450px;
+}
+
+
+.imagenes {
+    width: 90px;
+    height: 90px;
+}
+
+.arriba{
+    display: flex;
+    
+}
+
+.abajo {
+display: flex;
+margin-top: 45px;
+
+}
+
+.imgp{
+    display: flex;
+    
+}
+
+#btnx{
+    margin-top: 20px;
+}
+.alinear{
+    text-align: left;
+    font-size: 14px;
+    margin-inline: 30px;
+  
+}
+
+.comillas{
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.tamaño{
+    font-size: 14px;
+    color: #4c527d;
+    margin-left: 12px;
+}
+
+.fondo {
+    background-color: rgb(241, 245, 247);
+    margin-right: 20px;
+    
+}
+
+#fondo-arriba{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 29px;
+     }
+
+#bblanco {
+    background-color: white;
+    color: #ed6524;
+}
+#gray {
+    background-color: grey;
+}
+#gray2 {
+    background-color: rgb(206, 194, 194);
+}
